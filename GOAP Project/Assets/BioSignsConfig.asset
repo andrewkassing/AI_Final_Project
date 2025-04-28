@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e42b3af9c83f81e44b02d1af61b69d91, type: 3}
+  m_Name: BioSignsConfig
+  m_EditorClassIdentifier: 
+  milkSearchRadius: 20
+  milkLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  thirstRestorationRate: 1.25
+  thirstDepletionRate: 0.5
+  maxThirst: 20
+  acceptableThirstLimit: 10
+  bedSearchRadius: 20
+  bedLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  sleepinessRestorationRate: 1.25
+  sleepinessDepletionRate: 0.5
+  maxSleepiness: 20
+  acceptableSleepinessLimit: 10
